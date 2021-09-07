@@ -1,14 +1,10 @@
-import logo from "./logo.svg";
-import "./App.css";
+//import "./App.css";
+import TodoFeatures from "./features/Todo/todofeature";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Kien Vu 2110</p>
-        <h1>Learn Project</h1>
-      </header>
+    <div style={{ overflow: "hidden" }} className="App">
+      <TodoFeatures />
     </div>
   );
 }

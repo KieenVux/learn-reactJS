@@ -1,0 +1,9 @@
+.complete-task{
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #CCC;
+}
+.todoList > li:hover{
+    cursor: pointer;
+}

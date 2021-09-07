@@ -1,0 +1,9 @@
+.album_thumnail > img{
+    width: 200px;
+    border-radius: 0.25rem;
+}
+
+.album_name{
+    font-weight: bold;
+    font-size: x-large;
+}
